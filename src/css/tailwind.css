@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	body {
+		font-family: "Montserrat", sans-serif;
+	}
+	.bpipi-menu-icon {
+		@apply w-24 h-24 mb-4 flex flex-col justify-center bg-gradient-to-br from-[#fbfbfb] to-gray-200 p-4 rounded-[2.4rem];
+	}
+}
