@@ -8,7 +8,7 @@
   <meta name="description" content="dashboard bpipi v2">
   <title>Dashboard BPIPI v2</title>
   <!-- main css -->
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -23,12 +23,12 @@
       <!-- header -->
       <header class="flex justify-between">
         <div class="flex space-x-5">
-          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="./assets/images/logo/logo-kemenperin.png"
+          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="../assets/images/logo/logo-kemenperin.png"
             alt="logo kemenperin">
-          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="./assets/images/logo/logo-bpipi.png" alt="logo bpipi">
+          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="../assets/images/logo/logo-bpipi.png" alt="logo bpipi">
         </div>
         <div>
-          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="./assets/images/logo/logo-salam-sepatu.png"
+          <img class="w-24 fhd:w-40 lg:w-28 object-contain" src="../assets/images/logo/logo-salam-sepatu.png"
             alt="logo salam sepatu">
         </div>
       </header>
@@ -36,37 +36,31 @@
 
       <!-- services -->
       <section class="lg:px-20">
-        <h1 class="text-xl lg:text-3xl fhd:text-5xl font-bold uppercase text-center text-[#0080ab] mt-5">layanan bpipi
-          kemenperin
+        <h1 class="text-xl lg:text-3xl fhd:text-5xl font-bold uppercase text-center text-[#0080ab] mt-5">bpipi library
         </h1>
-        <div class="bpipi-menu-list grid lg:grid-cols-5 gap-y-10 mt-5 fhd:mt-10"></div>
+        <div class="bpipi-menu-list grid lg:grid-cols-4 gap-y-10 mt-20 fhd:mt-32"></div>
       </section>
       <!-- services -->
     </div>
 
     <!-- footer -->
     <footer class="flex justify-center lg:justify-start space-x-5 fhd:space-x-10 pb-10 fhd:pb-20 mt-10 lg:mt-0">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-zona-integritas.png"
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-zona-integritas.png"
         alt="logo zona integrasi">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-insan-oke.png"
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-insan-oke.png"
         alt="logo insan ok">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-berani-jujur.png"
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-berani-jujur.png"
         alt="logo berani jujur">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-saya-berani-jujur.png"
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-saya-berani-jujur.png"
         alt="logo saya berani jujur">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-bnsp.png" alt="logo bnsp">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-bureau-veritas.png"
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-bnsp.png" alt="logo bnsp">
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-bureau-veritas.png"
         alt="logo breau veritas">
-      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="./assets/images/logo/logo-kan.png" alt="logo kan">
+      <img class="w-10 lg:w-14 fhd:w-20 object-contain" src="../assets/images/logo/logo-kan.png" alt="logo kan">
     </footer>
     <!-- footer -->
   </div>
   <!-- container -->
-
-  <!-- figure sepatu -->
-  <img class="w-80 fhd:w-[28rem] absolute bottom-0 right-0 hidden lg:block" src="./assets/images/figure-sepatu.png"
-    alt="figure sepatu">
-  <!-- figure sepatu -->
 
   <!-- modal -->
   <div class="bpipi-modal fixed w-screen h-screen top-0 bottom-0 bg-[#0080ab]">
@@ -85,7 +79,7 @@
     const bpipiModalIframe = document.querySelector(".bpipi-modal-iframe");
     const bpipiModalClose = document.querySelector(".bpipi-modal-close");
 
-    fetch("./data/layanan-bpipi-kemenprin.json")
+    fetch("../data/bpipi-library.json")
       .then(res => res.json())
       .then(menus => {
         menus.forEach(function (menu) {
@@ -93,7 +87,7 @@
             <div class="bpipi-menu-item text-center flex flex-col items-center cursor-pointer"
               data-iframe="${menu.iframe}">
               <div class="w-24 h-24 fhd:w-52 fhd:h-52 mb-4">
-                <img src="./assets/images/menu/${menu.image}" alt="${menu.title}">
+                <img src="../assets/images/menu/${menu.image}" alt="${menu.title}">
               </div>
               <h5 class="fhd:text-2xl capitalize font-bold leading-none">${menu.title}</h5>
             </div>

@@ -1,0 +1,27 @@
+[
+	{
+		"image": "ifcc.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "IFCC"
+	},
+	{
+		"image": "ifn.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "IFN"
+	},
+	{
+		"image": "diklat.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "diklat"
+	},
+	{
+		"image": "lab.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "lab"
+	},
+	{
+		"image": "penilaian-internal-kebersihan.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "penilaian internal <br> kebersihan"
+	}
+]

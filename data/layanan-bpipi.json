@@ -1,0 +1,32 @@
+[
+	{
+		"image": "diklat.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "BIMTEK"
+	},
+	{
+		"image": "lab.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "lab uji"
+	},
+	{
+		"image": "ifcc.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "IFCC"
+	},
+	{
+		"image": "lsp.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "LSP"
+	},
+	{
+		"image": "supporting-layanan.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "supporting <br> layanan"
+	},
+	{
+		"image": "ifn.png",
+		"iframe": "https://kawalcopit19.netlify.app",
+		"title": "IFN"
+	}
+]
