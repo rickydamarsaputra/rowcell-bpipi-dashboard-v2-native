@@ -1,52 +1,55 @@
 [
 	{
 		"image": "kuiseoner-kepuasan-pelanggan.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "https://survey.bpipi.id",
 		"title": "kuisioner <br> kepuasan pelanggan"
 	},
 	{
 		"image": "layanan-bpipi.jpg",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "layanan bpipi"
+		"title": "layanan bpipi(x)",
+		"link-to": "layanan-bpipi.html"
 	},
 	{
 		"image": "pertumbuhan-industri.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id/big_data/pertumbuhan_industri",
 		"title": "pertumbuhan industri"
 	},
 	{
 		"image": "sistem-informasi.jpg",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "sistem informasi"
+		"title": "sistem informasi(x)",
+		"link-to": "sistem-informasi.html"
 	},
 	{
 		"image": "bank-desain.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id/big_data/bank_desain",
 		"title": "bank desain"
 	},
 	{
 		"image": "peta-potensi.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id/big_data/peta_potensi",
 		"title": "peta potensi"
 	},
 	{
 		"image": "alumni.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id/big_data/alumni",
 		"title": "alumni"
 	},
 	{
 		"image": "inovasi.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id",
 		"title": "inovasi"
 	},
 	{
 		"image": "karya-ifcc.jpg",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "http://datacenter.bpipi.id/big_data/ifcc",
 		"title": "karya ifcc"
 	},
 	{
 		"image": "bpipi-library.jpg",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "bpipi library"
+		"title": "bpipi library(x)",
+		"link-to": "bpipi-library.html"
 	}
 ]

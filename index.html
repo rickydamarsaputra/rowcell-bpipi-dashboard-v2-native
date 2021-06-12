@@ -89,19 +89,33 @@
       .then(res => res.json())
       .then(menus => {
         menus.forEach(function (menu) {
-          const menuItem = `
-            <div class="bpipi-menu-item text-center flex flex-col items-center cursor-pointer"
-              data-iframe="${menu.iframe}">
-              <div class="w-24 h-24 fhd:w-52 fhd:h-52 mb-4">
-                <img src="./assets/images/menu/${menu.image}" alt="${menu.title}">
+          if (menu["link-to"]) console.log(menu["link-to"]);
+          let menuItem = "";
+
+          if (menu["link-to"]) {
+            menuItem += `
+              <a href="./pages/${menu["link-to"]}" class="text-center flex flex-col items-center cursor-pointer">
+                <div class="w-24 h-24 fhd:w-52 fhd:h-52 mb-4">
+                  <img src="./assets/images/menu/${menu.image}" alt="${menu.title}">
+                </div>
+                <h5 class="fhd:text-2xl capitalize font-bold leading-none">${menu.title}</h5>
+              </a>
+            `;
+          } else {
+            menuItem += `
+              <div class="bpipi-menu-item-open-iframe text-center flex flex-col items-center cursor-pointer"
+                data-iframe="${menu.iframe}">
+                <div class="w-24 h-24 fhd:w-52 fhd:h-52 mb-4">
+                  <img src="./assets/images/menu/${menu.image}" alt="${menu.title}">
+                </div>
+                <h5 class="fhd:text-2xl capitalize font-bold leading-none">${menu.title}</h5>
               </div>
-              <h5 class="fhd:text-2xl capitalize font-bold leading-none">${menu.title}</h5>
-            </div>
-          `;
+            `;
+          }
 
           bpipiMenuList.innerHTML += menuItem;
 
-          const bpipiMenuItem = document.querySelectorAll(".bpipi-menu-item");
+          const bpipiMenuItem = document.querySelectorAll(".bpipi-menu-item-open-iframe");
           bpipiMenuItem.forEach(function (item) {
             item.addEventListener("click", function (event) {
               bpipiModalIframe.setAttribute("src", item.getAttribute("data-iframe"));
