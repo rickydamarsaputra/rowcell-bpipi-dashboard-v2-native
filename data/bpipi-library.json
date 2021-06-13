@@ -2,7 +2,8 @@
 	{
 		"image": "sni.jpg",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "SNI"
+		"title": "SNI",
+		"link-to": "bpipi-sni.html"
 	},
 	{
 		"image": "psm-pm.png",
