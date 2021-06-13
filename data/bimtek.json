@@ -1,37 +1,37 @@
 [
 	{
 		"image": "design-alas-kaki.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/design-alas-kaki.html",
 		"title": "design alas kaki"
 	},
 	{
 		"image": "pola-alas-kaki.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/pola-alas-kaki.html",
 		"title": "pola alas kaki"
 	},
 	{
 		"image": "grading-pola-manual.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/grading-pola-manual.html",
 		"title": "grading pola manual"
 	},
 	{
 		"image": "jahit.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/jahit.html",
 		"title": "jahit"
 	},
 	{
 		"image": "assembling.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/assembling.html",
 		"title": "assembling"
 	},
 	{
 		"image": "produk-kulit.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/produk-kulit.html",
 		"title": "produk-kulit"
 	},
 	{
 		"image": "short-course.png",
-		"iframe": "https://kawalcopit19.netlify.app",
+		"iframe": "../pages/bimtek/short-course.html",
 		"title": "short course"
 	}
 ]

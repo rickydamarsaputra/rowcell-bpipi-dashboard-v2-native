@@ -2,12 +2,13 @@
 	{
 		"image": "diklat.png",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "BIMTEK"
+		"title": "BIMTEK",
+		"link-to": "bimtek.html"
 	},
 	{
 		"image": "lab.png",
-		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "lab uji"
+		"iframe": "",
+		"title": "lab uji(x)"
 	},
 	{
 		"image": "ifcc.png",
@@ -22,7 +23,8 @@
 	{
 		"image": "supporting-layanan.png",
 		"iframe": "https://kawalcopit19.netlify.app",
-		"title": "supporting <br> layanan"
+		"title": "supporting <br> layanan",
+		"link-to": "supporting-layanan.html"
 	},
 	{
 		"image": "ifn.png",
